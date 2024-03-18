@@ -1,0 +1,315 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: "Goudy Bookletter 1911", serif;
+	font-size: 18px;
+	line-height: 1.7em;
+	background: #eee !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Goudy Bookletter 1911", serif;
+}
+
+a{
+	text-decoration: none !important;
+	list-style: none !important;
+}
+
+a:hover{
+	text-decoration: none !important;
+	list-style: none !important;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*top header start*/
+.top-header{
+	width: 100%;
+	background: #2196F3;
+	padding: 5px 0px;
+	border-bottom: 1px solid #3131315e;
+}
+.news-list{
+	background: red;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	padding: 8px 20px 8px 20px; 
+	cursor: pointer;
+}
+.width-100{
+	width: 100%;
+	float: left;
+}
+.headquote{
+	font-size: 18px;
+	color: white;
+	width: 80%;
+	font-weight: bold;
+}
+/*top header end*/
+
+/*main header start*/
+.header{
+	width: 100%;
+	background: white;
+	box-shadow: 0px 2px 5px 0px #00000036;
+}
+.logo-img{
+	width: 70%;
+	height: auto;
+	margin-top: 5px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 0px 0px 0px 5px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+	color: red;
+	transition: 0.2s;
+}
+/*main header end*/
+
+/*banner part start*/
+.banner-img{
+	background: url("../images/slider.jpg") center top no-repeat;
+	background-size: cover;
+	padding: 150px 0px;
+}
+.banner-img h6{
+	display: none !important;
+}
+/*banner part end*/
+
+/*event section start*/
+.event{
+	width: 100%;
+	margin-top: 60px;
+	padding-bottom: 30px;
+}
+.lastest-news{
+	background: white;
+	padding: 5px 18px 5px 18px;
+    box-shadow: 0px 2px 5px 0px #00000036;;
+}
+.heading-news h1{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+	background: #2196F3;
+	color: white;
+	margin-top: 5px;
+
+}
+.newset li{
+	list-style: none;
+	color: black;
+	font-weight: 500;
+	font-size: 13px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.upcoming-events-list .sm-2-title h3{
+	font-size: 15px;
+	background: #2196f3;
+	color: white;
+	text-align: center;
+	font-weight: 500;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 9;
+	padding-bottom: 14.7px;
+	padding-top: 14.7px;
+}
+.upcoming-events-list .sm-2-title h3:hover{
+	background: transparent;
+	color: black;
+	border: 1px solid  #2196f3;
+    transition: 0.3s;
+}
+.title-sm {
+	font-size: 13px;
+	margin-top: 20px;
+	font-weight: bold;
+	color: black;
+}
+.notice-sm-3-icon{
+	padding-bottom: 20px !important;
+}
+.notice-sm-3-icon .bi{
+	font-size: 20.4px;
+	border: 1px solid white;
+	padding: 6px 12px 6px 12px;
+	border-radius: 15px;
+	background: #2196F3;
+	color: white;
+	cursor: pointer;
+}
+.notice-sm-3-icon .bi:hover{
+	background: white;
+	color: black;
+	transition: 0.2s;
+	cursor: pointer;
+	border: 1px solid #2196F3;
+}
+.notice-sm-9-title h6{
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+}
+
+.events-2{
+	margin-top: 30px !important;
+}
+
+/*events-2 start*/
+
+.useful-inform-list-2 .notice-sm-3-img-2{	
+   width: 100%;
+   height: auto;
+   cursor: pointer;
+   padding-top: 36.5px;
+}
+
+.notice-sm-9-title-2 h6{
+	font-weight: bold;
+	color: black;
+	font-size: 18px;
+	margin-top: 40px;
+}
+
+.sm-5-img-20 img{
+	width: 100%;
+	padding-bottom: 7px;
+	padding-top: 15px;
+}
+
+.title-sm-te h5{
+	font-size: 17px;
+	font-weight: bold;
+	color: black;
+}
+.title-sm-te p{
+    font-size: 11px;
+    color: black;
+    font-weight: 500;
+}
+
+.Certificate-img{
+	padding-bottom:15px;
+	padding-top: 15px;
+}
+/*event section end*/
+
+/*gallery part start*/
+.gallery{
+	background: white;
+	padding: 80px 0px;
+}
+
+.gallery-header h1{
+	color: black;
+	font-weight: bold;
+	font-size: 45px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.img-2-gallery{
+	margin-top: 25px;
+}
+.gallery img:hover{
+	cursor: pointer;
+	transform: translateY(5px);
+}
+/*gallery part end*/
+
+/*company part start*/
+.company{
+	width: 100%;
+	padding: 30px 0px;
+}
+.company-header h1{
+	font-size: 45px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 20px;
+}
+marquee{
+	cursor: pointer;
+}
+/*company part end*/
+
+/*footer part start*/
+.footer{
+	width: 100%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background: #232F3e;
+	border-bottom: 1px solid white;
+}
+
+.footer-header h2{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+    margin: 0px 0px 0px 20px;
+    padding-bottom: 20px;
+}
+
+.foooter-list ul li{
+	list-style: none !important;
+}
+
+.foooter-list ul li a{
+	color: white;
+	font-size: 18px;
+	line-height: 35px;
+}
+
+.footer-contact-us li{
+   list-style: none;
+   margin: 0px 0px 0px 20px;
+   line-height: 35px;
+}
+
+.footer-contact-us li .bi{
+	color: white;
+	list-style: 30px;
+	color: red;
+	font-size: 20px;
+}
+
+.footer-contact-us li .bi span{
+	color: white;
+	font-size: 16px;
+}
+
+/*footer end*/
+
+/*copyright end*/
+
+.copyright{
+	background: #232F3e;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.copyright span{
+	color: white;
+	font-weight: 600;
+	font-size: 17px;
+}
